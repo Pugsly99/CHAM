@@ -4,21 +4,26 @@
 	align-content: center;
 }
 
-.homeHeader {
+.Header {
+	/* position: absolute;
+	margin-top: 1%;
+	width: 50%; */
+}
+
+.homeHeaderImg {
+	/* position: absolute;
 	z-index: 0;
-	/* position: absolute; */
-	max-width: 100%;
-	max-height: 100%;
+	width: 100%; */
 }
 
 .cham {
-	z-index: 1;
-	font-size: 4rem;
-	color: rgb(255, 255, 255);
+	/* z-index: 1;
+	font-size: 6rem;
+	color: #faebd7;
 	position: absolute;
-
-	top: 6%;
-	left: 10%;
+	width: 100%;
+	top: 10%;
+	left: 55%; */
 }
 
 .lala2pics {
