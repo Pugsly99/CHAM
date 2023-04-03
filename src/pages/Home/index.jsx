@@ -8,6 +8,10 @@ import chamHeader from '../../assets/imgs/chamHeader.jpg';
 import lalaLeft from '../../assets/imgs/lalaLeft.jpg';
 import lalaRight from '../../assets/imgs/lalaRight.jpg';
 
+//ICONS
+import { FaInstagram } from 'react-icons/fa';
+import { AiOutlineYoutube } from 'react-icons/ai';
+
 const Home = () => {
 	return (
 		<div className='Home'>

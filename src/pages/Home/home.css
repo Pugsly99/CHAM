@@ -11,9 +11,7 @@
 }
 
 .homeHeaderImg {
-	/* position: absolute;
-	z-index: 0;
-	width: 100%; */
+	width: 75%;
 }
 
 .cham {
@@ -28,6 +26,9 @@
 
 .lala2pics {
 	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 }
 
 .lala2pics:hover {
@@ -36,5 +37,5 @@
 
 .lala2pics img {
 	display: flex;
-	width: 50%;
+	width: 20%;
 }
