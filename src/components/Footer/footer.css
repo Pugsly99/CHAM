@@ -1,0 +1,32 @@
+.footer {
+	position: absolute;
+	z-index: -1;
+	width: 50%;
+	bottom: 2%;
+
+	left: 26%;
+}
+
+.facebook {
+	padding-right: 3%;
+}
+
+.instagram {
+	padding-right: 3%;
+	padding-left: 3%;
+}
+
+.tiktok {
+	padding-right: 3%;
+	padding-left: 3%;
+}
+
+.youtube {
+	padding-right: 3%;
+	padding-left: 3%;
+}
+
+.twitter {
+	padding-right: 3%;
+	padding-left: 3%;
+}

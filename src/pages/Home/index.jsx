@@ -3,6 +3,9 @@ import './home.css';
 
 import { Link } from 'react-router-dom';
 
+//COMPONENTS
+import Footer from './../../components/Footer/footer.jsx';
+
 //IMGS
 import chamHeader from '../../assets/imgs/chamHeader.png';
 import lalaLeft from '../../assets/imgs/lalaLeft.jpg';
@@ -39,6 +42,7 @@ const Home = () => {
 				</Link>
 				<div className='bold'>LA LA</div>
 			</div>
+			<Footer />
 		</div>
 	);
 };
