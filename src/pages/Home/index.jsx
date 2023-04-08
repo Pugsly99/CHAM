@@ -4,7 +4,7 @@ import './home.css';
 import { Link } from 'react-router-dom';
 
 //IMGS
-import chamHeader from '../../assets/imgs/chamHeader.jpg';
+import chamHeader from '../../assets/imgs/chamHeader.png';
 import lalaLeft from '../../assets/imgs/lalaLeft.jpg';
 import lalaRight from '../../assets/imgs/lalaRight.jpg';
 
@@ -21,23 +21,24 @@ const Home = () => {
 					alt='chamHeader'
 					className='homeHeaderImg'
 				/>
-				<h1 className='cham'>CHAM</h1>
 			</div>
-			<h3>OUT NOW</h3>
-			<Link
-				to='LaLa'
-				className='lala2pics'
-			>
-				<img
-					src={lalaLeft}
-					alt='lalaLeftImg'
-				/>
-				<img
-					src={lalaRight}
-					alt='lalaRightImg'
-				/>
-			</Link>
-			<h3>LA LA</h3>
+			<div className='release'>
+				<div className='bold'>OUT NOW</div>
+				<Link
+					to='LaLa'
+					className='lala2pics'
+				>
+					<img
+						src={lalaLeft}
+						alt='lalaLeftImg'
+					/>
+					<img
+						src={lalaRight}
+						alt='lalaRightImg'
+					/>
+				</Link>
+				<div className='bold'>LA LA</div>
+			</div>
 		</div>
 	);
 };

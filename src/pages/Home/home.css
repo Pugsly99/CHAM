@@ -2,26 +2,21 @@
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-}
 
-.Header {
-	/* position: absolute;
-	margin-top: 1%;
-	width: 50%; */
+	padding-top: 2%;
 }
 
 .homeHeaderImg {
-	width: 75%;
+	width: 50%;
 }
 
-.cham {
-	/* z-index: 1;
-	font-size: 6rem;
-	color: #faebd7;
-	position: absolute;
-	width: 100%;
-	top: 10%;
-	left: 55%; */
+.release {
+	padding-top: 10%;
+}
+
+.bold {
+	font-size: 1.3rem;
+	font-weight: bold;
 }
 
 .lala2pics {
@@ -36,6 +31,5 @@
 }
 
 .lala2pics img {
-	display: flex;
-	width: 20%;
+	width: 15%;
 }

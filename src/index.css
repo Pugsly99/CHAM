@@ -1,8 +1,14 @@
+@font-face {
+	font-family: Anton;
+	src: url(./assets//Anton/Anton-Regular.ttf);
+}
+
 body {
 	margin: 0;
-	background-color: #faebd7;
+	background-color: #f0ead6;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	font-family: Anton;
 }
 
 code {
