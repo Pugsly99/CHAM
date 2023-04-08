@@ -16,7 +16,7 @@
 
 .outNow {
 	position: absolute;
-	font-size: 150%;
+	font-size: 3vw;
 	font-weight: bold;
 	padding-bottom: 20%;
 	width: 25%;
@@ -24,7 +24,7 @@
 
 .lala {
 	position: absolute;
-	font-size: 1.3rem;
+	font-size: 3vw;
 	font-weight: bold;
 	padding-top: 20%;
 	width: 25%;
